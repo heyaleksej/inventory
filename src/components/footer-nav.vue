@@ -1,5 +1,7 @@
 <template>
-footer
+  <div class="wrapper block">
+
+  </div>
 </template>
 
 <script>
@@ -9,5 +11,11 @@ export default {
 </script>
 
 <style scoped>
+.wrapper{
+  width: 785px;
+  height: 72px;
+  padding: 18px;
 
+
+}
 </style>
