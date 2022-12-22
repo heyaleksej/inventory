@@ -1,8 +1,10 @@
 <template>
   <div class="wrapper block">
     <img class="wrapper__img" src="../assets/icons/avatar.jpg"/>
-    <div> Username</div>
-    <div> HealthBar</div>
+    <div class="ghost ghost__big pointer"> Username </div>
+    <div class="ghost ghost__small pointer"> HealthBar </div>
+    <div class="ghost ghost__small pointer"> Progress </div>
+    <div class="ghost ghost__small pointer"> Storage Capacity </div>
   </div>
 </template>
 

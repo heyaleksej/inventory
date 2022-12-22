@@ -21,7 +21,10 @@ export default {
     footerNav,
     mainTable,
     sideBar
-  }
+  },
+  beforeMount() {
+    this.$store.commit('initializeApp')
+  },
 }
 </script>
 
